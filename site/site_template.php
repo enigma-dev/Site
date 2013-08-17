@@ -60,7 +60,7 @@ echo $body_classes;
 echo'">
 <!--This comment should appear on all non-wiki pages of this website-->
 	<div id="wrap">
-		<div id="header">
+		<div id="enigma_header">
 			<div class="top">
 				<h1><a href="' . $bannerlink . '">ENIGMA Development Environment</a></h1>
 			</div>
@@ -122,7 +122,7 @@ public static function output_footer() {
 echo '
 		</div>
 		
-		<footer id="footer">
+		<footer id="enigma_footer">
 			<div id="footer-copyright">
 				&copy;2007-2012 The ENIGMA team ' . /* (is_null($extra) ? '' : $extra) . */ '<br />
 				ENIGMA - '; ENIGMASiteHelpers::saying(); echo '

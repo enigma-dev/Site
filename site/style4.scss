@@ -75,7 +75,7 @@ h6 { font-size: 80%;  }
 	@include box-shadow(0 0 8px #000);
 }
 
-#header {
+#enigma_header {
 	.top {
 		background: #004A7F url("images/v4/headerbg.png");
 		height: 70px;
@@ -170,7 +170,7 @@ h6 { font-size: 80%;  }
 	}
 }
 
-#footer
+#enigma_footer
 {
 	height: 36px;
 	background: #707070;
@@ -296,9 +296,9 @@ body.nonsense {
 	
 	a:hover { background: url("/forums/Themes/enigma_v4/nonsense/colors.gif") !important; }
 	* { cursor: url("/forums/Themes/enigma_v4/nonsense/trollfacevtf-1697_preview.gif"), auto; }
-	#header .top, #menu-wrap { background: #000 url("/forums/Themes/enigma_v4/nonsense/4_colorful_bears.gif"); }
-	#header .top a { background: url("/forums/Themes/enigma_v4/nonsense/logo.gif"); }
-	#header img { display: none; }
+	#enigma_header .top, #menu-wrap { background: #000 url("/forums/Themes/enigma_v4/nonsense/4_colorful_bears.gif"); }
+	#enigma_header .top a { background: url("/forums/Themes/enigma_v4/nonsense/logo.gif"); }
+	#enigma_header img { display: none; }
 	#content { background: #e21616 url("/forums/Themes/enigma_v4/nonsense/scared-guy-187c3e5-127.gif"); }
 	.postquad3 .avatar {
 		position: relative;

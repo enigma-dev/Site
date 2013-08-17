@@ -72,51 +72,51 @@ h6 {
   -moz-box-shadow: 0 0 8px black, 0 0, 0 0;
   -webkit-box-shadow: 0 0 8px black, 0 0, 0 0; }
 
-#header .top {
+#enigma_header .top {
   background: #004a7f url("images/v4/headerbg.png");
   height: 70px; }
-  #header .top a {
+  #enigma_header .top a {
     display: block;
     width: 317px;
     height: 70px;
     background: url("images/v4/headerlogo.png");
     text-indent: -999999px; }
-  #header .top h1 {
+  #enigma_header .top h1 {
     margin: 0;
     padding: 0; }
-#header #menu-wrap {
+#enigma_header #menu-wrap {
   height: 24px;
   background: url(images/v4/menubg3.gif) repeat-x;
   font: bold 11px arial, sans-serif; }
-  #header #menu-wrap #menu {
+  #enigma_header #menu-wrap #menu {
     float: left;
     padding-left: 8px;
     text-transform: uppercase; }
-    #header #menu-wrap #menu ul {
+    #enigma_header #menu-wrap #menu ul {
       margin: 0;
       padding: 6px 0 0; }
-    #header #menu-wrap #menu li {
+    #enigma_header #menu-wrap #menu li {
       float: left;
       color: #2E2C51; }
-    #header #menu-wrap #menu a {
+    #enigma_header #menu-wrap #menu a {
       padding: 0 10px;
       color: #2E2C51;
       text-decoration: none; }
-      #header #menu-wrap #menu a:hover {
+      #enigma_header #menu-wrap #menu a:hover {
         text-decoration: underline; }
 
-  #header #menu-wrap #userinfo {
+  #enigma_header #menu-wrap #userinfo {
     float: right;
     margin: 4px 4px 0 0;
     padding-right: 12px;
     font-weight: bold;
   }
   
-  #header #menu-wrap #userinfo * {
+  #enigma_header #menu-wrap #userinfo * {
     vertical-align: middle;
   }
 
-  #header #menu-wrap #userinfo .small {
+  #enigma_header #menu-wrap #userinfo .small {
     font-weight: normal;
   }
 
@@ -144,7 +144,7 @@ h6 {
       #content #submenu a:hover {
         text-decoration: underline; }
 
-#footer {
+#enigma_footer {
   height: 36px;
   background: #707070;
   color: #fff;
@@ -152,9 +152,9 @@ h6 {
   font-family: helvetica, arial, sans-serif;
   text-transform: uppercase;
   font-weight: bold; }
-  #footer a {
+  #enigma_footer a {
     color: #fff; }
-  #footer #footer-copyright {
+  #enigma_footer #footer-copyright {
     float: left;
     padding: 5px 0 0 4px; }
 
@@ -243,11 +243,11 @@ body.nonsense {
     background: url("/forums/Themes/enigma_v4/nonsense/colors.gif") !important; }
   body.nonsense * {
     cursor: url("/forums/Themes/enigma_v4/nonsense/trollfacevtf-1697_preview.gif"), auto; }
-  body.nonsense #header .top, body.nonsense #menu-wrap {
+  body.nonsense #enigma_header .top, body.nonsense #menu-wrap {
     background: black url("/forums/Themes/enigma_v4/nonsense/4_colorful_bears.gif"); }
-  body.nonsense #header .top a {
+  body.nonsense #enigma_header .top a {
     background: url("/forums/Themes/enigma_v4/nonsense/logo.gif"); }
-  body.nonsense #header img {
+  body.nonsense #enigma_header img {
     display: none; }
   body.nonsense #content {
     background: #e21616 url("/forums/Themes/enigma_v4/nonsense/scared-guy-187c3e5-127.gif"); }
