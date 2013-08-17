@@ -1,0 +1,48 @@
+.WikiText {
+   padding-left: 32px;
+}
+
+.WikiText .editsection {
+  float: right;
+  display: none;
+  visibility: hidden;
+}
+.WikiText h2, .WikiText th h3 {
+  border-bottom: 1px solid #AAAAAA;
+  margin-bottom: 12px;
+}
+.WikiText ol {
+  list-style-type: decimal;
+  padding-left: 32px;
+  margin-bottom: 0.5em;
+}
+.WikiText ul {
+  list-style-type: square;
+  padding-left: 32px;
+  margin: 1em 0;
+}
+.WikiText li {
+  margin-bottom: 0.5em;
+}
+
+.WikiText td {
+  padding-bottom: 0.5em;
+}
+
+.WikiText p {
+  margin-bottom: 1em;
+}
+
+.WikiText .toctitle, .WikiText #toctitle  {
+  text-align: center;
+}
+.WikiText .toc, .WikiText #toc {
+  background-color: #F9F9F9;
+  border: 1px solid #AAAAAA;
+  font-size: 95%;
+  padding: 10px;
+}
+.WikiText .toc td, .WikiText #toc td {
+  padding: 0 10px 10px 10px;
+}
+

@@ -1,0 +1,340 @@
+/**
+ * ENIGMA Development Environment Website v4 Stylesheet - Version 2.0pre
+ * Copyright (c) Richard Z.H. Wang, Josh Ventura 2008-2011
+ */
+/* mixins */
+/* main stuff */
+body {
+  background: #acacac;
+  background: linear-gradient(top, #acacac, #7c7c7c);
+  background: -moz-linear-gradient(top, #acacac, #7c7c7c);
+  background: -webkit-linear-gradient(top, #acacac, #7c7c7c);
+  background-repeat: repeat-x;
+  font: 12px verdana, arial, sans-serif;
+  color: #2b385e; }
+
+p {
+  line-height: 20px; }
+
+a {
+  color: #3973B3;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3874A4;
+  background: none;
+  font-weight: normal;
+  margin: 0;
+  padding-top: .5em;
+  padding-bottom: .17em; }
+
+h1 {
+  font-size: 188%; }
+
+h2 {
+  font-size: 150%; }
+
+h3 {
+  font-size: 132%; }
+
+h4 {
+  font-size: 116%; }
+
+h5 {
+  font-size: 100%; }
+
+h6 {
+  font-size: 80%; }
+
+/* floating */
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+.clear-left {
+  clear: left; }
+
+.clear-right {
+  clear: right; }
+
+/* layout */
+#wrap {
+  margin: 0 16px;
+  box-shadow: 0 0 8px black, 0 0, 0 0;
+  -moz-box-shadow: 0 0 8px black, 0 0, 0 0;
+  -webkit-box-shadow: 0 0 8px black, 0 0, 0 0; }
+
+#header .top {
+  background: #004a7f url("images/v4/headerbg.png");
+  height: 70px; }
+  #header .top a {
+    display: block;
+    width: 317px;
+    height: 70px;
+    background: url("images/v4/headerlogo.png");
+    text-indent: -999999px; }
+  #header .top h1 {
+    margin: 0;
+    padding: 0; }
+#header #menu-wrap {
+  height: 24px;
+  background: url(images/v4/menubg3.gif) repeat-x;
+  font: bold 11px arial, sans-serif; }
+  #header #menu-wrap #menu {
+    float: left;
+    padding-left: 8px;
+    text-transform: uppercase; }
+    #header #menu-wrap #menu ul {
+      margin: 0;
+      padding: 6px 0 0; }
+    #header #menu-wrap #menu li {
+      float: left;
+      color: #2E2C51; }
+    #header #menu-wrap #menu a {
+      padding: 0 10px;
+      color: #2E2C51;
+      text-decoration: none; }
+      #header #menu-wrap #menu a:hover {
+        text-decoration: underline; }
+
+  #header #menu-wrap #userinfo {
+    float: right;
+    margin: 4px 4px 0 0;
+    padding-right: 12px;
+    font-weight: bold;
+  }
+  
+  #header #menu-wrap #userinfo * {
+    vertical-align: middle;
+  }
+
+  #header #menu-wrap #userinfo .small {
+    font-weight: normal;
+  }
+
+
+#content {
+  padding: 10px 16px;
+  background: #fff; }
+  #content #submenu {
+    margin: 0 0 25px -10px;
+    text-transform: uppercase;
+    font-size: 12px; }
+    #content #submenu ul {
+      margin: 0;
+      padding: 0; }
+    #content #submenu li {
+      display: inline;
+      border-left: 1px solid #ccc;
+      color: #2E2C51; }
+    #content #submenu ul li:first-child {
+      border: none; }
+    #content #submenu a {
+      padding: 0 10px 0 12px;
+      color: #2E2C51;
+      text-decoration: none; }
+      #content #submenu a:hover {
+        text-decoration: underline; }
+
+#footer {
+  height: 36px;
+  background: #707070;
+  color: #fff;
+  font-size: 11px;
+  font-family: helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold; }
+  #footer a {
+    color: #fff; }
+  #footer #footer-copyright {
+    float: left;
+    padding: 5px 0 0 4px; }
+
+/* news */
+.news {
+  margin: 10px 0; }
+
+/* stuff for the progress page */
+.expand_header {
+  border-top: 2px solid #d4d4d4;
+  border-left: 1px dotted #d4d4d4;
+  border-right: 1px dotted #d4d4d4;
+  background: #ececec;
+  font-family: Gill sans mt;
+  color: #7d7d7d;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 4px; }
+
+.expand {
+  border-bottom: 2px solid #d4d4d4;
+  border-left: 1px dotted #d4d4d4;
+  border-right: 1px dotted #d4d4d4;
+  background: #fefefe;
+  padding: 4px; }
+
+/* a left-over from when the site was hosted on twisterghost.com. still used, though. */
+.commentcss {
+  border-top: 1px solid #DEDEDE;
+  border-bottom: 2px solid #DEDEDE;
+  border-left: 1px solid #DEDEDE;
+  border-right: 2px solid #DEDEDE;
+  padding: 4px; }
+
+/* in other news... */
+.newslink {
+  background: #eeeeee;
+  margin: 0;
+  width: 100%; }
+
+.newslink td {
+  color: #222;
+  font-size: 11px;
+  padding: 5px 5px 5px 10px; }
+
+.newslink span {
+  background: transparent;
+  font-style: italic;
+  font-weight: normal; }
+
+.newslink input {
+  font-size: 10px;
+  padding: 3px;
+  vertical-align: middle;
+  width: auto; }
+
+.newslink input.button {
+  background: transparent;
+  border: 0;
+  color: #072A66;
+  vertical-align: middle; }
+
+/* One of those info panels... */
+.infopanel {
+  background: #ebebeb; }
+
+.infopanel-content {
+  padding-left: 6px;
+  padding-right: 6px; }
+
+/* A purdier line. */
+hr {
+  border: 0;
+  width: 100%;
+  color: #E0E0E0;
+  background-color: #E0E0E0;
+  height: 1px; }
+
+/* nonsense */
+body.nonsense {
+  background: black url("/forums/Themes/enigma_v4/nonsense/trollfacevtf-1697_preview.gif"); }
+  body.nonsense #menu_wrapper {
+    background: black url("/forums/Themes/enigma_v4/nonsense/trollfacevtf-1697_preview.gif"); }
+  body.nonsense a:hover {
+    background: url("/forums/Themes/enigma_v4/nonsense/colors.gif") !important; }
+  body.nonsense * {
+    cursor: url("/forums/Themes/enigma_v4/nonsense/trollfacevtf-1697_preview.gif"), auto; }
+  body.nonsense #header .top, body.nonsense #menu-wrap {
+    background: black url("/forums/Themes/enigma_v4/nonsense/4_colorful_bears.gif"); }
+  body.nonsense #header .top a {
+    background: url("/forums/Themes/enigma_v4/nonsense/logo.gif"); }
+  body.nonsense #header img {
+    display: none; }
+  body.nonsense #content {
+    background: #e21616 url("/forums/Themes/enigma_v4/nonsense/scared-guy-187c3e5-127.gif"); }
+  body.nonsense .postquad3 .avatar {
+    position: relative;
+    top: 20px;
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    /* IE8 */
+    zoom: 1; }
+  body.nonsense .postquad4 {
+    letter-spacing: 3px; }
+  body.nonsense .postquad1, body.nonsense .postquad4 img {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    /* IE8 */
+    zoom: 1; }
+  body.nonsense .signature {
+    letter-spacing: -2px; }
+
+/*todo */
+.work {
+  background: url("greengrad.png") repeat-x;
+  border: solid 1px;
+  border-color: #C0FFC0;
+  padding: 8px 24px;
+  width: 512px;
+  height: 80px;
+  margin: 4px; }
+
+.fuck {
+  background: url("redgrad.png") repeat-x;
+  border: solid 1px;
+  border-color: #FFC0C0;
+  padding: 8px 24px;
+  width: 512px;
+  height: 80px;
+  margin: 4px; }
+
+.todo {
+  background: url("bluegrad.png") repeat-x;
+  border: solid 1px;
+  border-color: #C0EDFF;
+  padding: 8px 24px;
+  width: 512px;
+  height: 80px;
+  margin: 4px; }
+
+.what {
+  background: url("blackgrad.png") repeat-x;
+  border: solid 1px;
+  border-color: #C0C0C0;
+  padding: 8px 24px;
+  width: 512px;
+  height: 80px;
+  margin: 4px; }
+
+.credtitle {
+  background: url("images/cred_title.png");
+  background-repeat: no-repeat;
+  padding-left: 8px;
+  width: 350px;
+  height: 25px;
+  color: white;
+  font-weight: bold; }
+
+.credbox {
+  border: 2px solid;
+  border-color: #737F83;
+  width: 600px;
+  padding: 3px; }
+
+#enigmaTicker * {
+}
+#enigmaTicker {
+    margin-left: 600px;
+    margin-right: 128px;
+    white-space: nowrap;
+    overflow: hidden;
+}

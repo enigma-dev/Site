@@ -1,0 +1,380 @@
+/**
+ * ENIGMA Development Environment Website v4 Stylesheet - Version 2.0pre
+ * Copyright (c) Richard Z.H. Wang, Josh Ventura 2008-2011
+ */
+
+/* mixins */
+
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+}
+
+@mixin box-shadow($params, $params2: 0 0, $params3: 0 0) {
+	box-shadow: $params, $params2, $params3;
+	-moz-box-shadow: $params, $params2, $params3;
+	-webkit-box-shadow: $params, $params2, $params3;
+}
+
+@mixin vert-gradient($from, $to) {
+    background: $from;
+    background: linear-gradient(top, $from, $to);
+    background: -moz-linear-gradient(top, $from, $to);
+    background: -webkit-linear-gradient(top, $from, $to);
+}
+
+/* main stuff */
+
+body {
+	@include vert-gradient(#acacac, #7c7c7c);
+	background-repeat: repeat-x;
+	font: 12px verdana, arial, sans-serif;
+	color: #2b385e;
+}
+
+p {
+	line-height: 20px;
+}
+
+a {
+	color: #3973B3;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #3874A4;
+	background: none;
+	font-weight: normal;
+	margin: 0;
+	padding-top: .5em;
+	padding-bottom: .17em;
+}
+h1 { font-size: 188%; }
+h2 { font-size: 150%; }
+h3 { font-size: 132%; }
+h4 { font-size: 116%; }
+h5 { font-size: 100%; }
+h6 { font-size: 80%;  }
+
+/* floating */
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.clear-left { clear: left; }
+.clear-right { clear: right; }
+
+/* layout */
+
+#wrap {
+	margin: 0 16px;
+	@include box-shadow(0 0 8px #000);
+}
+
+#header {
+	.top {
+		background: #004A7F url("images/v4/headerbg.png");
+		height: 70px;
+		
+		a {
+			display: block;
+			width: 317px;
+			height: 70px;
+			background: url("images/v4/headerlogo.png");
+			text-indent: -999999px;
+		}
+		h1 {
+			margin: 0;
+			padding: 0;
+		}
+	}
+	
+	#menu-wrap {
+		height: 24px;
+		background: url(images/v4/menubg3.gif) repeat-x;
+		font: bold 11px arial, sans-serif;
+
+		#menu {
+			float: left;
+			padding-left: 8px;
+			text-transform: uppercase;
+			
+			ul {
+				margin: 0;
+				padding: 6px 0 0;
+			}
+			li {
+				float: left;
+				color: #2E2C51;
+			}
+			a {
+				padding: 0 10px;
+				color: #2E2C51;
+				text-decoration: none;
+				&:hover { text-decoration: underline; }
+			}
+		}
+
+		#userinfo {
+			float: right;
+			margin: 4px 4px 0 0;
+			padding-right: 12px;
+			font-weight: bold;
+			
+			img { /* for smf */
+				vertical-align: baseline;
+			}
+			span {
+				position: relative;
+				top: -4px;
+				span {
+					position: static;
+				}
+			}
+			.small {
+				font-weight: normal;
+			}
+		}
+	}
+}
+
+#content {
+	padding: 10px 16px;
+	background: #fff;
+
+	#submenu {
+		margin: 0 0 25px -10px;
+		text-transform: uppercase;
+		font-size: 12px;
+		
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			display: inline;
+			border-left: 1px solid #ccc;
+			color: #2E2C51;
+		}
+		ul li:first-child { border: none; }
+		a {
+			padding: 0 10px 0 12px;
+			color: #2E2C51;
+			text-decoration: none;
+			&:hover { text-decoration: underline; }
+		}
+	}
+}
+
+#footer
+{
+	height: 36px;
+	background: #707070;
+	color: #fff;
+	font-size: 11px;
+	font-family: helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+	a { color: #fff; }
+	#footer-copyright {
+		float: left;
+		padding: 5px 0 0 4px;
+	}
+}
+
+/* news */
+
+.news {
+	margin: 10px 0;
+}
+
+/* stuff for the progress page */
+
+.expand_header
+{
+	border-top: 2px solid #d4d4d4; 
+	border-left: 1px dotted #d4d4d4; 
+	border-right: 1px dotted #d4d4d4; 
+	background: #ececec; 
+	font-family:Gill sans mt; 
+	color:#7d7d7d; 
+	font-size:10px; 
+	font-weight:bold; 
+	text-transform: uppercase; 
+	padding:4px; 
+}
+.expand
+{
+	border-bottom: 2px solid #d4d4d4; 
+	border-left: 1px dotted #d4d4d4; 
+	border-right: 1px dotted #d4d4d4; 
+	background: #fefefe; padding:4px; 
+}
+
+/* a left-over from when the site was hosted on twisterghost.com. still used, though. */
+.commentcss
+{
+	border-top:1px solid #DEDEDE;
+	border-bottom:2px solid #DEDEDE;
+	border-left:1px solid #DEDEDE;
+	border-right:2px solid #DEDEDE;
+	padding:4px;
+}
+
+/* in other news... */
+
+.newslink
+{
+	background: #eeeeee;
+	margin: 0;
+	width: 100%;
+}
+
+.newslink td
+{
+	color: #222;
+	font-size: 11px;
+	padding: 5px 5px 5px 10px;
+}
+
+.newslink span
+{
+	background: transparent;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.newslink input
+{
+	font-size: 10px;
+	padding: 3px;
+	vertical-align: middle;
+	width: auto;
+}
+
+.newslink input.button
+{
+	background: transparent;
+	border: 0;
+	color: #072A66;
+	vertical-align: middle;
+}
+
+/* One of those info panels... */
+
+.infopanel
+{
+	background:#ebebeb;
+}
+.infopanel-content
+{
+	padding-left:6px;
+	padding-right:6px;
+}
+
+/* A purdier line. */
+
+hr
+{
+	border: 0;
+	width: 100%;
+	color:#E0E0E0;
+	background-color:#E0E0E0;
+	height:1px;
+}
+
+/* nonsense */
+
+body.nonsense {
+	background: #000 url("/forums/Themes/enigma_v4/nonsense/trollfacevtf-1697_preview.gif");
+	#menu_wrapper { background: #000 url("/forums/Themes/enigma_v4/nonsense/trollfacevtf-1697_preview.gif"); }
+	
+	a:hover { background: url("/forums/Themes/enigma_v4/nonsense/colors.gif") !important; }
+	* { cursor: url("/forums/Themes/enigma_v4/nonsense/trollfacevtf-1697_preview.gif"), auto; }
+	#header .top, #menu-wrap { background: #000 url("/forums/Themes/enigma_v4/nonsense/4_colorful_bears.gif"); }
+	#header .top a { background: url("/forums/Themes/enigma_v4/nonsense/logo.gif"); }
+	#header img { display: none; }
+	#content { background: #e21616 url("/forums/Themes/enigma_v4/nonsense/scared-guy-187c3e5-127.gif"); }
+	.postquad3 .avatar {
+		position: relative;
+		top: 20px;
+		transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -webkit-transform: rotate(180deg);
+				 filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=2); /* IE6,IE7 */
+			 -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
+				   zoom: 1; }
+	.postquad4 { letter-spacing: 3px; }
+	.postquad1, .postquad4 img {
+		transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -webkit-transform: rotate(180deg);
+				 filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=2); /* IE6,IE7 */
+			 -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
+				   zoom: 1; }
+	.signature { letter-spacing: -2px; }
+}
+
+
+/*todo */
+.work
+{
+  background:url("greengrad.png") repeat-x;
+  border: solid 1px;
+  border-color:#C0FFC0;
+  padding:8px 24px;
+  width: 512px;
+  height:80px;
+  margin:4px;
+}
+.fuck
+{
+  background:url("redgrad.png") repeat-x;
+  border: solid 1px;
+  border-color:#FFC0C0;
+  padding:8px 24px;
+  width: 512px;
+  height:80px;
+  margin:4px;
+}
+.todo
+{
+  background:url("bluegrad.png") repeat-x;
+  border: solid 1px;
+  border-color:#C0EDFF;
+  padding:8px 24px;
+  width: 512px;
+  height:80px;
+  margin:4px;
+}
+.what
+{
+  background:url("blackgrad.png") repeat-x;
+  border: solid 1px;
+  border-color:#C0C0C0;
+  padding:8px 24px;
+  width: 512px;
+  height:80px;
+  margin:4px;
+}
+
+
+.credtitle
+{
+background:url('images/cred_title.png');
+background-repeat:no-repeat;
+padding-left: 8px;
+width: 350px;
+height: 25px;
+color: white;
+font-weight: bold; 
+}
+
+.credbox
+{
+border:2px solid;
+border-color: #737F83;
+width:600px; 
+padding:3px;
+}

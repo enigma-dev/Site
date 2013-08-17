@@ -1,0 +1,22 @@
+.htaccess
+backups
+cgi-bin
+di.css
+docs
+downloads
+forums
+geshi
+# githook.php
+headers.php
+NoLongerUsed
+payload.txt
+robots.txt
+Scripts
+software
+thundercleese
+tracker
+u
+v5test
+edc/
+issues/
+dbcreds.php
