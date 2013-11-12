@@ -124,7 +124,7 @@ echo '
 		
 		<footer id="enigma_footer">
 			<div id="footer-copyright">
-				&copy;2007-2012 The ENIGMA team ' . /* (is_null($extra) ? '' : $extra) . */ '<br />
+				&copy;2007-2013 The ENIGMA team ' . /* (is_null($extra) ? '' : $extra) . */ '<br />
 				ENIGMA - '; ENIGMASiteHelpers::saying(); echo '
 			</div>
 			<div class="clear"></div>
