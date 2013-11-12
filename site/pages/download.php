@@ -1,11 +1,5 @@
 <div class="WikiText">
   <h1><a href="/docs/Wiki/Install">Download</a></h1>
-  <p>
-    <i style="text-style: italics">This page is included from the Wiki. 
-       If it doesn't read like a typical downloads page, that's largely
-       because it isn't. We still haven't coordinated a formal release
-       mechanism: read on for more information.</i>
-  </p>
 <?php
 // comment these lines out for production use
 $fErrLevel = 0;
