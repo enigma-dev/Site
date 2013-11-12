@@ -1,0 +1,17 @@
+/* A font by Jos Buivenga (exljbris) -> www.exljbris.com */
+@font-face {
+	font-family: 'museo';
+	src: url('museo300-webfont.eot');
+	src: local('☺'), url('museo300.otf') format('opentype'), url('museo300-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* A font by Jos Buivenga (exljbris) -> www.exljbris.com */
+@font-face {
+	font-family: 'museo';
+	src: url('museo500-webfont.eot');
+	src: local('☺'), url('museo500.otf') format('opentype'), url('museo500-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}

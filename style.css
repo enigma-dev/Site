@@ -1,0 +1,548 @@
+/**
+ * ENIGMA website design 5
+ * Copyright (c) a2h 2010 - http://a2h.uni.cc/
+ */
+
+@import url("images/reset.css");
+@import url("images/fonts.css");
+
+/* main stuff */
+
+body
+{
+	min-width: 1024px;
+	background: #1c1c1c url("/site/images/pattern.png");
+	font-family: arial, helvetica, sans-serif;
+	font-size: 13px;
+}
+p
+{
+	margin: 8px 0;
+	line-height: 20px;
+}
+img
+{
+	vertical-align: middle;
+}
+
+/* html5 */
+
+header, section, footer, aside, nav, article, figure
+{
+	display: block;  
+}
+
+/* floating */
+
+.left
+{
+	float: left;
+}
+.right
+{
+	float: right;
+}
+.clear
+{
+	clear: both;
+}
+
+/* widths */
+
+#header-wrap, #content-wrap, #footer-wrap,
+#points
+{
+	min-width: 960px;
+}
+
+/* links */
+
+a
+{
+	color: #59627d;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+a.round
+{
+	padding: 1px 6px;
+	background: #d0d2d9;
+	color: #fff;
+	border-radius: 16px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;
+}
+a.round:hover
+{
+	background: #59627d;
+}
+
+/* headings */
+
+h1
+{
+	margin: 12px 0 20px;
+	font-family: museo;
+	font-size: 24px;
+	color: #2d3244;
+}
+h2
+{
+	margin: 28px 0 8px;
+	font-size: 17px;
+}
+h2.subheading
+{
+	margin: -14px 0 20px;
+	font-family: museo;
+	font-size: 15px;
+	font-weight: bold;
+	color: #494e5e;
+}
+h2, h2 a
+{
+	color: #59627d;
+}
+h3
+{
+	margin: 22px 0 12px;
+	font-size: 14px;
+}
+h3, h3 a
+{
+	color: #6e799c;
+}
+h4.subheading
+{
+	margin: -8px 0 8px;
+	color: #a5a5a5;
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* columns */
+
+ul.columns
+{
+	padding: 0;
+	list-style: none;
+}
+ul.columns li
+{
+	float: left;
+	display: inline;
+	padding: 12px 0;
+	border-top: 1px solid #59627d;
+}
+ul.columns-1 li
+{
+	float: none;
+	display: block;
+	padding: 12px 8px;
+}
+ul.columns-3 li
+{
+	margin-right: 10px;
+	padding: 12px 5px;
+	width: 31%;
+}
+ul.columns h2:first-child, ul.columns h3:first-child, ul.columns p:first-child
+{
+	margin-top: 0;
+}
+ul.columns p, ul.columns dl
+{
+	margin: 8px 0 0;
+}
+
+/* indenting */
+
+.indent
+{
+	padding-left: 12px;
+}
+.indent-dd dd
+{
+	padding-left: 12px;
+}
+
+/* lists in general */
+
+dl dt
+{
+	font-weight: bold;
+}
+dl dt, dl dd
+{
+	line-height: 20px;
+}
+
+ul
+{
+	margin: 12px 0;
+	padding-left: 20px;
+	line-height: 18px;
+}
+
+/* fonts */
+
+#menu, #search input, #points
+{
+	font-family: "lucida grande", "lucida sans unicode", "lucida sans", "bitstream vera sans", sans-serif;
+}
+
+/* the header */
+
+#header-wrap
+{
+	background: url("/site/images/header.png") 0 45px repeat-x;
+	color: #fff;
+}
+#header
+{
+	position: relative;
+	margin: 0 auto;
+	padding-top: 45px;
+	width: 960px;
+}
+#logo
+{
+	margin: 0;
+	padding: 0;
+}
+#logo img
+{
+	position: absolute;
+	left: -32px;
+	top: 6px;
+	width: 112px;
+	height: 112px;
+}
+#header-content
+{
+	padding: 22px 0 15px;
+	font-family: museo, sans-serif;
+}
+#header-content h1
+{
+	margin: 0;
+	color: #fff;
+	font-size: 30px;
+}
+#header-content.tall, #header-content.home
+{
+	padding: 30px 0;
+	height: 165px;
+	overflow: hidden;
+}
+#user
+{
+	position: absolute;
+	right: 0;
+	top: 16px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+#user a
+{
+	color: #fff;
+}
+#user small
+{
+	font-size: 11px;
+}
+
+/* homepage specific stuff */
+
+#header-content.home
+{
+	position: relative;
+}
+#header-screenshot
+{
+	float: left;
+	margin-right: 30px;
+	width: 329px;
+	height: 235px;
+	background: url("/site/images/screenshot.png") no-repeat;
+}
+#header-banner
+{
+	float: left;
+	margin-top: 16px;
+	width: 600px;
+	font-size: 28px;
+	line-height: 36px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+}
+#header-banner strong
+{
+	font-size: 30px;
+}
+#header-banner .top
+{
+	display: block;
+	margin: 12px 0 0 20px;
+}
+#header-banner .bottom
+{
+	display: block;
+	margin: 0 0 0 42px;
+}
+#header-download
+{
+	position: absolute;
+	left: 80px;
+	bottom: 14px;
+	display: block;
+	padding-top: 39px;
+	width: 317px;
+	height: 57px;
+	background-image: url("/site/images/download.png");
+	color: #fff;
+	font-family: museo, sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+}
+#header-download:hover
+{
+	background-position: 0 -96px;
+	text-decoration: none;
+}
+#header-download span
+{
+	margin-right: 3px;
+}
+#header-download img
+{
+	margin-left: 1px;
+	vertical-align: baseline;
+}
+
+/* the menu */
+
+#menu
+{
+	height: 45px;
+	font-size: 14px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
+#menu ul
+{
+	margin: 0;
+	padding: 15px 0 0 88px;
+	list-style: none;
+	line-height: 1;
+}
+#menu li
+{
+	float: left;
+	padding: 0 20px;
+}
+#menu li a
+{
+	color: #fff;
+	text-decoration: none;
+}
+#menu li.selected
+{
+	font-weight: bold;
+}
+
+#search
+{
+	float: right;
+	position: relative;
+	top: -4px;
+	width: 200px;
+	height: 24px;
+	background: url("/site/images/search.png") no-repeat;
+}
+#search input[name=q]
+{
+	position: relative;
+	top: -1px;
+	padding: 5px 12px 4px !important;
+	width: 139px;
+	height: 16px;
+	background: transparent !important;
+	border: 0 !important;
+	color: #fff;
+	font-size: 11px;
+}
+#search input[name=q].nosel
+{
+	color: #e1e6eb;
+}
+#search input[name=sa]
+{
+	padding: 0;
+	width: 16px;
+	height: 24px;
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+}
+
+/* content */
+
+#content-wrap
+{
+	padding: 10px 0 20px;
+	background: #f7f7f7;
+	color: #111;
+}
+#content
+{
+	margin: 0 auto;
+	width: 960px;
+}
+#content-main /* use only when the sidebar is in use */
+{
+	float: left;
+	width: 780px;
+}
+#content-sidebar
+{
+	float: right;
+	width: 160px;
+}
+
+/* the footer */
+
+#footer-wrap
+{
+	padding: 18px 0;
+	background: url("/site/images/footer-shadow.png") repeat-x;
+}
+
+#footer
+{
+	margin: 0 auto;
+	width: 960px;
+	color: #888;
+	font-size: 11px;
+}
+#footer a
+{
+	color: #888;
+	text-decoration: none;
+	border-bottom: 1px dotted #888;
+}
+#footer a:hover
+{
+	border-bottom: 1px solid #888;
+}
+#footer span
+{
+	display: block;
+	float: left;
+	font-weight: bold;
+}
+#footer nav
+{
+	float: left;
+}
+#footer ul
+{
+	float: left;
+	margin: 0;
+	padding-left: 15px;
+	list-style: none;
+	line-height: 1;
+}
+#footer li
+{
+	float: left;
+	margin-left: 10px;
+}
+#saying
+{
+	float: right;
+}
+
+/* homepage points */
+
+#points
+{
+	padding: 7px 0;
+	background: #efefef;
+	border-bottom: 1px solid #c9c9c9;
+	font-size: 14px;
+}
+#points ul
+{
+	margin: 0 auto;
+	width: 960px;
+	list-style: none;
+}
+#points li
+{
+	margin: 4px 0;
+	padding: 5px 0 0 36px;
+	width: 420px;
+	height: 22px;
+	background: url("/site/images/points.png") no-repeat;
+}
+#points .basket
+{
+	background-position: 0 0;
+}
+#points .love
+{
+	background-position: 0 -34px;
+}
+#points .lightning
+{
+	background-position: 0 -68px;
+}
+#points .codeblocks
+{
+	background-position: 0 -102px;
+}
+
+/* news */
+
+.news
+{
+	margin: -8px 0 0;
+}
+.news h2
+{
+	float: left;
+}
+.news .meta
+{
+	float: left;
+	margin: 33px 0 0 4px;
+	color: #959ea5;
+	font-size: 10px;
+}
+.news .content
+{
+	clear: both;
+}
+
+/* downloads */
+
+.column-windows
+{
+	background: url("/site/images/download-logo-win.png") right 12px no-repeat;
+}
+.column-osx
+{
+	background: url("/site/images/download-logo-osx.png") right 12px no-repeat;
+}
+.column-linux
+{
+	background: url("/site/images/download-logo-lin.png") right 12px no-repeat;
+}
