@@ -1,0 +1,7 @@
+body {
+  background-image: url("../img/background.png");
+}
+textarea {
+  width: 100%;
+  height: 128px;
+}
