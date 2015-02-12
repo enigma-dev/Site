@@ -3,7 +3,7 @@ Now accepting donations in form of cash, cheque, and full frontal nudity.
 Redefining casual sex for %r(2,50) years.
 It's only a bug if you can smack it.
 Now with 200% more soylent green!
-The secret ingredient is love.
+The secret ingredient is %s(love,hate,venereal disease,the black plague,rat excrement,biofuels,expurgated biomass,elongated daddy long legs,archaic Latin).
 If you are reading this, run.
 %r(100,100000) more dollars until we own the world.
 Now broadcasting in mental subscriptions.
@@ -27,7 +27,7 @@ The result of a linearly distributed gaussian random model.
 <span style="font: console; font-size: 10px;">DEL C:\WINDOWS</span>
 Please wait, erasing /dev/hda1/...
 Australia ain't got shit on this, son.
-Deemed inappropriate to wear in public in Serbia.
+Deemed inappropriate to wear in public in %s(Serbia,Iran,Iraw,Phlogistan,Russia,Diphendipia,the USA,4chan,The Internet,ebaumsworld,newgrounds,Googleland).
 Follow the white rabbit, Neo.
 Who says a genetic mutation is necessarily a bad thing?
 In Soviet Russia, Enigma codes you!
@@ -35,7 +35,7 @@ lolwut?
 FATAL ERROR AT 0xDECAF: SYSTEM REQUIRES MORE CAFFEINE.
 The system referenced an illegal instruction: "It's okay to feel sad!"
 We take our job very seriously.
-download it or DIE.
+download it or %s(DIE,dont,idk,do stuff,click something,do something,follow links,disregard,defy gravity,join irc,/kick RobertBColton).
 Full story at %r(1,12):00.
 We're secretly a ninja brotherhood.
 Outcast samurai make good coders.
@@ -48,7 +48,7 @@ It's not in the proper order unless parenthesized.
 Also known as "The Little Engine That Could (And Did [Quite Well, Actually {Thanks For Asking}])"
 Running around naked has never been this fun.
 Now specializing in Oppaijutsu, for a short time.
-PARSE ERROR AT LINE 50: Shut the hell up, Steve.
+PARSE ERROR AT LINE %r(1,5000): Shut the hell up, %s(Steve,Tim,Charlie,Josh,Gary,Kid,Frank,Patrick,Jessica,Rabius,Caesar)
 PARSE ERROR AT LINE 23: SYSTEM TOO PARANOID. MUST ABORT. (Extra information: "THEY ARE OUT TO GET ME!")
 PARSE ERROR AT LINE 69: C_VIRGINITY not found.
 PARSE ERROR AT LINE 69: C_CHERRY not yet popped.
@@ -62,7 +62,7 @@ Polymorphic references are not allowed here.
 Also known as JavaSM++ml.
 Tasty AND satisfying!
 Does this look infected to you?
-Now exiled by the %s(Mormon,Catholic,Baha'i,Islam,Amish,Pastafarian,Rastafarian,Zoroastrian,Church of the Latter-day Saints,Jim-Bob,Satanist,General Religious) faith. You might be next!
+Now exiled by the %s(Mormon,Catholic,Bahai,Islam,Amish,Pastafarian,Rastafarian,Zoroastrian,Church of the Latter-day Saints,Jim-Bob,Satanist,General Religious) faith. You might be next!
 Ich bin ein Berliner! 
 Conglomerate! Confederate! Preterite! Epilepsy! And Jesus.
 We voted for %s(Obama,McCain,Nader,Gore). Wait. No. Never mind. We don't vote!
@@ -110,3 +110,67 @@ Now featuring HFCS90.
 That's right, Batman. That's how we do it.
 Every time I turn around, I think of how easy it would be to just smash you over the head with a wet trout. I think.
 We can't stop here! This is bat country!
+Everyone has a reason.
+Spread the word; we're all dying.
+A comma and a fuckin' dot: semicolon.
+Is a semicolon part of your digestive system?
+wtf %s(jersh,erzmertk,rubercolun,imstarv,dakays,palyganod)
+[[ drugbliminal messages ]]
+http://lmgtfy.com/?q=i+am+12+and+what+is+this
+Now with 900% more Casual Sex.
+(noun) totally (not) a mystery
+look i know how to type
+Regular Expressions are for Nazis anyways. (in b4 invocation of Godwin's law)
+DO YOU SEE THE SIGN?!?!?!?!
+click here for %s(hot,cold,wet,dry,orange,red,blue,purple,black,green,super,slow,fast,cute), %s(little,cheap,expensive,free,annoying,imperfect,perfect,amazing,stupid,quarklike,boson-having,gluon-terminating,gravity-defying)  %s(boy,dog,cat,iguana,human,cthulhu,wooly mammoth,shark,rabbit,cork) %s(food,toys,disease,organs,souls,hearts,brains,gas,fecal matter)
+as heard featured on recent anti-%s(humanitarian,breathing,living,procreation,existing,sentience,clinical,organic,understandable,humane) efforts (computers will rule.)
+WE ARE GONE WE ARE NOT HERE PLEASE DO NOT LEAVE A MESSAGE
+if you couldn't tell this is randomized
+home of lesbian seagull raps.
+derk ehr Dehkerhkhdkhg
+alles klar, herr Komissar?
+AMADEUS AMADEUS, AMADEUS AMADEUS, AMADEUS AMADEUS, OH-OH AMADEUS
+as featured in recent best of the '90s albums
+so %s(outdated,useless,dusty,gregarious,indifferent,dislocated,crazed) that it's %s(fresh,awesome,perfect,amazing,indestructable,executable,tolerable,intelligible,disruptive).
+so new that it's old.
+%s(Everybody,Nobody) does the %s(spamo,killo,do,trio,quatro,pento)mino shuffle quite like %s(you,me,him,her,that guy,a dog,cats,dead monkeys,hairbrushes,five dollar bills,the euro,the united nations,syria,kim jong un,guantanamo bay)
+SEKKUSU NO OPPAI
+progress on lojban localization: %r(1,99)%
+Godot's estimated ETA: %r(1,600) minutes.
+no i don't comprehend %s(complicated,mellow,relaxed,harsh,rapid,misquoted,misunderstood,papal,triggering,difficult,insane,intense,tangential) %s(maths,readings,arithmetics,stuff,words,pizza,mushroom toboggans,irc,enigmas).
+%s(everyone,nobody,somebody,a person,that guy,your internet,the world,continent,pangaea) %s(dies,disappears,drapes muppets,dislocates joints,tenderizes meat,breaks enigma,penetrates enigma,destroydestroyHELP)
+al-jabber calculate blabber
+habbershabbery is where i be
+PASS THE E-VITE SON
+Now home to over %r(10,100) new species of %s(fish,cat,dog,intel processors,napalm,herbivorous nightmare beast,tropes,meme,samurai dog,ninja sphinx,rocket squirrel)
+Did you know? If you go to %s(wal-mart,krogers,walgreens,cvs,rite-aid,aldi,trader joes,heb,a fire station) and ask for a %s(bald,tall,gray,orange,weak,strong,weird,cold,triumphant,defeated,nihilistic,prosthetic-enabled) %s(giant,eagle,clod of dirt,potion,coffer,bean,person,face,trumpet,dr. seuss), you might get %s(exactly what you wanted,punched in the face,offered food,shot through the toe,pinched in the nipple,violently beaten and sodomized,some money [das p cool],tripped over the moon,poked repeatedly with a fish,salmon-slapped,backpack ganked,deaded)!
+Now sold wherever electronics malfunction
+Now in stock at your nearest %s(Salvation Army,Convenience Store,Gas Station,Goodwill,K-Mart,Circuit City,Adult Megaplex,Senate Building,State Capital) 
+Only harmful in extremely small doses and above
+These statements have not been evaluated by the FDA
+Get some in your diet!
+Wanted in %r(5,150) countries for %s(tax evasion,tax fraud,refund stealing,general mischievery,petty antics,pedophile hunting,face knocking) and the lesser crime of %s(spilling milk,eating the last cookie,not compiling right,promoting errors,soliciting child prostitution)
+this is the terminus of day to day living
+where u @? %s(the subway,hell,heaven,purgatory,limbo,inside the nyse,ur house,da internet,irc,football massacres,at the place) ofc~~~
+first i was like %s(wat,huh,who,how,when,where,why,duh,deeeeeerp,hurrr,dafuq?) but then i was like %s(awwwww yuhhh,wat,wat u say,nawww,um,ok,DAS RACIST!!!!!)
+%s(Herp,Enigm,Tugg,Drugg,Flamm,Trampl,Stamp,Hemp,Camp,Serifi,Courio,Cassi)%s(us,as,ae,opiae,acus,ece)  %s(magni,mini,inteni,derpi,nyani,torici,slutti,puti,patari,smacki,licki,traffi,forgetti,tiki,lossi,develi)%s(cus,ca,m,cama,cimus,dus,cara,cae,dae,cideae)!
+brb %s(koalas,boss fight,fap break,mom calling,dinner time,waiting 2 compile,D D O S C O M I N,robert colton terrorizing,9/12,worshipping computerology,dying,forgot how 2 breath,no not rly HELP)
+%s(Destroy,Defend,Decry,Dissuade,Dissatisfy,Defenestrate)! %s(Diminish,Debuff,Demarcate,Demonize)! I don't agree!
+i dream of electric sheep.
+1 sheep, 2 sheep, dead sheep who speak
+/kick retep998
+we are in the process of attempting to resurrect a2h. please standby.
+%s(josh,russky,darkace,robert,gary,ism)? %s(russian,communist,glutton,over-indulger,food worshipper,hare krishna,cult leader,accredited occultist,web undeveloper,irc idler,air breather,face haver,skin utilizer,socialist,marxist,bacon addict,heroin distributor,condom fanperson,latex cork,cute little boy)? THAT'S NO COINCIDENCE
+everybody wants to %s(rule the world,fuel the curls,hue the pearls,kill you,worship internets,technorape,tentacle party,fireskin,semaphore distribute,glagnar!)
+Pop Culture Reference Of The Day: %s(The Simpsons,Futurama,American Dad,Family Guy,Full House,The Cosby Show,Roseanne,Ren and Stimpy,Dragon Ball) reference.
+TAKE A CHAINSAW TO THE HOUSE OF REPRESENTATIVES
+For the 4channers, a free box of tissues.
+%s(Buy,Rent,Steal,Acquire,Obtain,Delocate) a %s(new,old,used,random,worthless,broken,working,destructive,diminutive,unimportant,disinterred) %s(copy,instance,donkey,monkey escapist,dislocated elbow,disenfranchised nation,sovereign entity,gaybarf) today!
+Now accurate to up to 0.%r(1,10000000) places of precision.
+Think about your %s(collar bone breaking,groin being detached,head being made of bubblegum,ENIGMA being finished,mom not beating you,hair turning into oranges,crack stash running out,car turned into a motorized frog)
+# find / | xargs rm -rf 
+I'm finishing this merge, then we're going to %s(revert all edits,abandon the project,make tinfoil hats,totally not shoot up a school,GO CLOCK IN AND WORK,maybe do some stuff)
+im %r(6,14) years old & have a %r(140,256) IQ so %s(give me money,make me dinner,wateva)
+everyone seems to have forgotten that i exist
+im in ur website haxxin ur codes
+confirmed to be %r(10,50)% %s(human remains,dog meat,horse hoof,fire breath,decrepit water)
