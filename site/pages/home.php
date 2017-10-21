@@ -28,8 +28,8 @@ $page->setMetaDescription('ENIGMA Development Environment -- A very high level l
 <img src="/site/images/v4/monkey.png" alt="*" /> Easy to learn, and Game Maker compatible!<br />
 <img src="/site/images/v4/bricks.png" alt="*" /> It's a great way to get started with C++.<br />
 <!-- Social media -->
-    <a href="https://www.facebook.com/pages/ENIGMA-Development-Environment/427268784026069?ref=stream"><img width="40" height="40" src="http://enigma-dev.org/docs/wiki/images/5/55/Facebook.png" alt="Like us on facebook!" /></a>
-    <a href="https://twitter.com/EnigmaGamedev"><img width="40" height="40" src="http://enigma-dev.org/docs/wiki/images/f/f7/Twitter.png" alt="Follow us on twitter!" /></a>
+    <a href="https://www.facebook.com/pages/ENIGMA-Development-Environment/427268784026069?ref=stream"><img width="40" height="40" src="https://enigma-dev.org/docs/wiki/images/5/55/Facebook.png" alt="Like us on facebook!" /></a>
+    <a href="https://twitter.com/EnigmaGamedev"><img width="40" height="40" src="https://enigma-dev.org/docs/wiki/images/f/f7/Twitter.png" alt="Follow us on twitter!" /></a>
     <img src="/site/images/v4/hypno.gif" alt="*" /> Hypnotoad says use ENIGMA.&nbsp;&nbsp;&nbsp;
 </p>
 
