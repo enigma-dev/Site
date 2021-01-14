@@ -6,16 +6,15 @@ $page->setMetaDescription('ENIGMA Development Environment -- A very high level l
 ?>
 <div style="clear:both"></div>
 <div class="right" style="margin-left: 10px">
-	<script type="text/javascript">
-	<!--
+	<!-- script type="text/javascript">
 	google_ad_client = "pub-9185210906751858";
 	/* Really vertical this time */
 	google_ad_slot = "9966185366";
 	google_ad_width = 160;
 	google_ad_height = 600;
-	//-->
-	</script>
-	<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+	// - - >
+	</script -->
+	<!-- script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script -->
 </div>
 
 <h2>Welcome</h2>
@@ -28,9 +27,13 @@ $page->setMetaDescription('ENIGMA Development Environment -- A very high level l
 <img src="/site/images/v4/monkey.png" alt="*" /> Easy to learn, and Game Maker compatible!<br />
 <img src="/site/images/v4/bricks.png" alt="*" /> It's a great way to get started with C++.<br />
 <!-- Social media -->
-    <a href="https://www.facebook.com/pages/ENIGMA-Development-Environment/427268784026069?ref=stream"><img width="40" height="40" src="https://enigma-dev.org/docs/wiki/images/5/55/Facebook.png" alt="Like us on facebook!" /></a>
-    <a href="https://twitter.com/EnigmaGamedev"><img width="40" height="40" src="https://enigma-dev.org/docs/wiki/images/f/f7/Twitter.png" alt="Follow us on twitter!" /></a>
-    <img src="/site/images/v4/hypno.gif" alt="*" /> Hypnotoad says use ENIGMA.&nbsp;&nbsp;&nbsp;
+    <!-- juuuunk <a href="https://www.facebook.com/pages/ENIGMA-Development-Environment/427268784026069?ref=stream"><img width="40" height="40" src="https://enigma-dev.org/docs/wiki/images/5/55/Facebook.png" alt="Like us on facebook!" /></a>
+    <a href="https://twitter.com/EnigmaGamedev"><img width="40" height="40" src="https://enigma-dev.org/docs/wiki/images/f/f7/Twitter.png" alt="Follow us on twitter!" /></a> -->
+    <br/>
+    <a href="https://github.com/enigma-dev/enigma-dev"><img src="/site/images/v4/github.png" alt="View on GitHub" /></a><br/>
+    <a href="https://discord.gg/Kz67atZ"><img src="/site/images/v4/discord.png" alt="Chat on Discord" /></a><br/>
+    <a href="https://www.patreon.com/radialgm"><img src="/site/images/v4/patreon.png" alt="Support us on Patreon" /></a><br/>
+    <img src="/site/images/v4/hypno.gif" alt="*" style="vertical-align:middle; margin-right: .5em">Hypnotoad says use ENIGMA.<br/>
 </p>
 
 <h2>News</h2>

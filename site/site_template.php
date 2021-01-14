@@ -24,14 +24,13 @@ if ($allstyles)
 	<link rel="stylesheet" type="text/css" href="/site/reset.css">
 	<link rel="stylesheet" type="text/css" href="/site/style4.scss.css">';	
 echo '
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	 <script src="//code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 	<script src="/site/jquery.marquee.js"></script>
 	<script src="/site/knob.js"></script>
 	<script src="/site/html5.js"></script>
-	<script src="/site/raphael.js"></script>
 	<link rel="stylesheet" type="text/css" href="/site/kK.css">
-	<script>window.jQuery || document.write(\'<script src="/site/jquery-1.4.2.min.js">\x3C/script>\')</script>
+	<script>window.jQuery || document.write(\'<script src="/site/jquery-3.3.1.min.js">\x3C/script>\')</script>
 	
 	<meta name="google-site-verification" content="wnDSokcqwcmOggWme6de8xnHWcp-qVJ622zQf4FLw3E">
 	

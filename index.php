@@ -106,14 +106,19 @@ else
 	
 	header("HTTP/1.1 404 Not Found");
 	$page->setTitle('404 Page Not Found');
-	echo '
-	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="100%" height="640" id="myfile" align="middle">
-	<param name="allowScriptAccess" value="sameDomain" />
-	<param name="movie" value="/site/404.swf" />
-	<param name="quality" value="high" />
-	<param name="bgcolor" value="#ffffff" />
-	<embed src="/site/404.swf" quality="high" bgcolor="#000000" width="100%" height="640" name="myfile" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go
-	/getflashplayer" />
-	</object>';
+	if (2018 < 1995) {
+		echo '
+		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="100%" height="640" id="myfile" align="middle">
+		<param name="allowScriptAccess" value="sameDomain" />
+		<param name="movie" value="/site/404.swf" />
+		<param name="quality" value="high" />
+		<param name="bgcolor" value="#ffffff" />
+		<embed src="/site/404.swf" quality="high" bgcolor="#000000" width="100%" height="640" name="myfile" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go
+		/getflashplayer" />
+		</object>';
+	} else {
+		echo '<div style="width:100%;height:calc(100vh - 150px);background:black;text-align:center"><img src="/site/scratchy-cat.gif" style="object-fit:contain;width:100%;height:100%"></div>';
+		echo '<audio autoplay loop><source src="/site/404.ogg" type="audio/ogg"/><source src="/site/404.mp3" type="audio/mpeg"/><source src="/site/404.wav" type="audio/wav"/>Welcome to 2018, my friend. :)</audio>';
+	}
 }
 ?>

@@ -1,0 +1,5 @@
+0	0	hello? are you there? 
+0	init	if you're there, please click this: :goto(initiate)
+init	init	good. there isn't much time.
+init	init	herpa derp derp hurr
+
